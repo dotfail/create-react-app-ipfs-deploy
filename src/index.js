@@ -5,6 +5,9 @@ import 'babel-polyfill';
 import {Entity, Scene} from 'aframe-react';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import floorTexture from './images/floor.jpg';
+import skyTexture from './images/sky.jpg';
+
 
 class App extends React.Component {
     constructor(props) {
@@ -23,8 +26,8 @@ class App extends React.Component {
         return (
             <Scene>
                 <a-assets>
-                    <img id="groundTexture" src="./images/floor.jpg"/>
-                    <img id="skyTexture" src="./images/sky.jpg"/>
+                    <img id="groundTexture" alt="floor texture" src={floorTexture} />
+                    <img id="skyTexture" alt="sky texture" src={skyTexture} />
                 </a-assets>
 
                 <Entity primitive="a-plane" src="#groundTexture" rotation="-90 0 0" height="100" width="100"/>
