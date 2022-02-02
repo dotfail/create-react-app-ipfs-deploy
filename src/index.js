@@ -23,8 +23,8 @@ class App extends React.Component {
         return (
             <Scene>
                 <a-assets>
-                    <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg"/>
-                    <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg"/>
+                    <img id="groundTexture" src="vr/images/floor.jpg"/>
+                    <img id="skyTexture" src="vr/images/sky.jpg"/>
                 </a-assets>
 
                 <Entity primitive="a-plane" src="#groundTexture" rotation="-90 0 0" height="100" width="100"/>
@@ -32,7 +32,7 @@ class App extends React.Component {
                 <Entity primitive="a-light" type="point" intensity="2" position="2 4 4"/>
                 <Entity primitive="a-sky" height="2048" radius="30" src="#skyTexture" theta-length="90" width="2048"/>
                 <Entity particle-system={{preset: 'snow', particleCount: 2000}}/>
-                <Entity text={{value: 'Hello, A-Frame React!', align: 'center'}} position={{x: 0, y: 2, z: -1}}/>
+                <Entity text={{value: 'MetaChapel welcomes you.', align: 'center'}} position={{x: 0, y: 2, z: -1}}/>
 
                 <Entity id="box"
                         geometry={{primitive: 'box'}}
