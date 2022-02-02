@@ -27,7 +27,7 @@ class App extends React.Component {
                     <a-asset-item id="sculpture" src={cubeSculpture}></a-asset-item>
                 </a-assets>
                 <Entity primitive="a-plane" src="#groundTexture" rotation="-90 0 0" height="100" width="100"/>
-                <Entity particle-system={{preset: 'dust', color: '#0000FF,#FF0000', particleCount: 20000}}/>
+                <Entity particle-system={{preset: 'dust', color: '#00FF00,#FF0000', particleCount: 10000}}/>
                 <a-sky src="#sky"/>
                 <a-gltf-model src="#sculpture" position="0 0 -6"></a-gltf-model>
                 <a-image src="#pdx" width="10" height="5" position="-2 1.2 -3"
