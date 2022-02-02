@@ -12,15 +12,15 @@ function App() {
         <span className="Big-plus">+</span>
         <img src={reactLogo} className="React-logo" alt="react-logo" />
         <p>
-          React App deployed on IPFS through Fleek.
+          MetaChapel
         </p>
         <a
           className="App-link"
-          href="https://docs.fleek.co"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn More About Fleek!
+          &copy 2022 MetaChapel
         </a>
       </header>
     </div>
