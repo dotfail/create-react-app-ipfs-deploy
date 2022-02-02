@@ -6,7 +6,7 @@ import {Entity, Scene} from 'aframe-react';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import logoTexture from './images/metachapel-welcome.png';
-import starryTexture from './images/starry.jpg';
+import skyTexture from './images/sky.jpg';
 import floorTexture from './images/floor.jpg';
 import cubeSculpture from './sculptures/sculpture.glb';
 
@@ -21,7 +21,7 @@ class App extends React.Component {
         return (
             <Scene>
                 <a-assets>
-                    <img id="sky" alt="sky" src={starryTexture} />
+                    <img id="sky" alt="sky" src={skyTexture} />
                     <img id="groundTexture" alt="floor texture" src={floorTexture} />
                     <img id="pdx" alt="logo" src={logoTexture} />
                     <a-asset-item id="sculpture" src={cubeSculpture}></a-asset-item>
