@@ -23,8 +23,8 @@ class App extends React.Component {
         return (
             <Scene>
                 <a-assets>
-                    <img id="groundTexture" src="images/floor.jpg"/>
-                    <img id="skyTexture" src="images/sky.jpg"/>
+                    <img id="groundTexture" src="./images/floor.jpg"/>
+                    <img id="skyTexture" src="./images/sky.jpg"/>
                 </a-assets>
 
                 <Entity primitive="a-plane" src="#groundTexture" rotation="-90 0 0" height="100" width="100"/>
