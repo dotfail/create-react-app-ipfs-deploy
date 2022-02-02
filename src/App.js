@@ -12,16 +12,8 @@ function App() {
         <span className="Big-plus">+</span>
         <img src={reactLogo} className="React-logo" alt="react-logo" />
         <p>
-          MetaChapel
+          MetaChapel welcomes you.
         </p>
-        <a
-          className="App-link"
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          MetaChapel.
-        </a>
       </header>
     </div>
   );
