@@ -20,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          &copy 2022 MetaChapel
+          MetaChapel.
         </a>
       </header>
     </div>
